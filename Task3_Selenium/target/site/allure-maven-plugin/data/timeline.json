@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "1-ПК",
+    "threads" : [ {
+      "title" : "2648@1-ПК.main(1)",
+      "testCases" : [ {
+        "uid" : "8595f93523f844ed",
+        "name" : "testnewSbrf",
+        "title" : "Страхование",
+        "time" : {
+          "start" : 1529083167599,
+          "stop" : 1529083304626,
+          "duration" : 137027
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

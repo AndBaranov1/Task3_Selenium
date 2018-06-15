@@ -1,0 +1,12 @@
+pages\BasePage.class
+pages\TravelsPage.class
+steps\Page1Step.class
+util\TestProperties.class
+pages\Page1.class
+steps\TravelsSteps.class
+util\AllureListener.class
+steps\BaseSteps.class
+pages\Page2.class
+steps\MainSteps.class
+pages\MainPage.class
+steps\Page2Step.class

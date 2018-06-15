@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1529083165253" stop="1529083305855" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SbrfTestForAllureReport</name>
+    <test-cases>
+        <test-case start="1529083167599" stop="1529083304626" status="passed">
+            <name>testnewSbrf</name>
+            <title>Страхование</title>
+            <steps>
+                <step start="1529083265503" stop="1529083266763" status="passed">
+                    <name>stepSelectMainMenu[Страхование]</name>
+                    <title>выбран пункт меню Страхование</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083266768" stop="1529083278257" status="passed">
+                    <name>stepSelectSubMenu[Путешествия и покупки]</name>
+                    <title>выбран вид страхования Путешествия и покупки</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083278259" stop="1529083278700" status="passed">
+                    <name>stepSelect1MainMenu[Страхование]</name>
+                    <title>выбран пункт меню Страхование</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083278702" stop="1529083287719" status="passed">
+                    <name>stepSelect1SubMenu[Путешествия и покупки]</name>
+                    <title>выбран вид страхования Путешествия и покупки</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083287721" stop="1529083288131" status="passed">
+                    <name>stepTitle[Страхование путешественников]</name>
+                    <title>заголовок страницы - Страхование путешественников</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083288133" stop="1529083288899" status="passed">
+                    <name>stepissueButtonTravels</name>
+                    <title>выполнено нажатие на кнопку - Оформить онлайн</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083288900" stop="1529083289166" status="passed">
+                    <name>switchTab</name>
+                    <title>переход на другую вкладку</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083289168" stop="1529083297053" status="passed">
+                    <name>stepSelectSum</name>
+                    <title>выполнен выбор минимальной суммы</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083297055" stop="1529083297818" status="passed">
+                    <name>stepissueButton</name>
+                    <title>выполнено нажатие на кнопку - Оформить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083297821" stop="1529083303362" status="passed">
+                    <name>stepFillFields[{Застрахованные: Дата рождения=05.05.1990, Серия паспорта=5010, Место выдачи=ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬ...]</name>
+                    <title>заполняются поля</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529083297836" stop="1529083299298" status="passed">
+                            <name>stepFillField[Застрахованные: Дата рождения, 05.05.1990]</name>
+                            <title>поле Застрахованные: Дата рождения заполняется значением 05.05.1990</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083299299" stop="1529083299645" status="passed">
+                            <name>stepFillField[Серия паспорта, 5010]</name>
+                            <title>поле Серия паспорта заполняется значением 5010</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083299646" stop="1529083300852" status="passed">
+                            <name>stepFillField[Место выдачи, ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА]</name>
+                            <title>поле Место выдачи заполняется значением ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083300855" stop="1529083301107" status="passed">
+                            <name>stepFillField[Застрахованные: Фамилия, Ivanov]</name>
+                            <title>поле Застрахованные: Фамилия заполняется значением Ivanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083301108" stop="1529083301351" status="passed">
+                            <name>stepFillField[Имя, Сергей]</name>
+                            <title>поле Имя заполняется значением Сергей</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083301381" stop="1529083301615" status="passed">
+                            <name>stepFillField[Номер паспорта, 215316]</name>
+                            <title>поле Номер паспорта заполняется значением 215316</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083301616" stop="1529083301843" status="passed">
+                            <name>stepFillField[Фамилия, Петров]</name>
+                            <title>поле Фамилия заполняется значением Петров</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083301850" stop="1529083302042" status="passed">
+                            <name>stepFillField[Застрахованные: Имя, Ivan]</name>
+                            <title>поле Застрахованные: Имя заполняется значением Ivan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083302043" stop="1529083302341" status="passed">
+                            <name>stepFillField[Отчество, Иванович]</name>
+                            <title>поле Отчество заполняется значением Иванович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083302346" stop="1529083302829" status="passed">
+                            <name>stepFillField[Дата рождения, 15.09.1980]</name>
+                            <title>поле Дата рождения заполняется значением 15.09.1980</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083302845" stop="1529083303362" status="passed">
+                            <name>stepFillField[Дата выдачи, 10.06.2011]</name>
+                            <title>поле Дата выдачи заполняется значением 10.06.2011</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529083303390" stop="1529083304132" status="passed">
+                    <name>stepCheckFillFields[{Застрахованные: Дата рождения=05.05.1990, Серия паспорта=5010, Место выдачи=ОУФМС РОССИИ УВД ПО ЦЕН...]</name>
+                    <title>поля заполнены верно</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529083303401" stop="1529083303463" status="passed">
+                            <name>stepCheckFillField[Застрахованные: Дата рождения, 05.05.1990]</name>
+                            <title>поле Застрахованные: Дата рождения заполнено значением 05.05.1990</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303464" stop="1529083303512" status="passed">
+                            <name>stepCheckFillField[Серия паспорта, 5010]</name>
+                            <title>поле Серия паспорта заполнено значением 5010</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303512" stop="1529083303599" status="passed">
+                            <name>stepCheckFillField[Место выдачи, ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА]</name>
+                            <title>поле Место выдачи заполнено значением ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303599" stop="1529083303708" status="passed">
+                            <name>stepCheckFillField[Застрахованные: Фамилия, Ivanov]</name>
+                            <title>поле Застрахованные: Фамилия заполнено значением Ivanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303708" stop="1529083303802" status="passed">
+                            <name>stepCheckFillField[Имя, Сергей]</name>
+                            <title>поле Имя заполнено значением Сергей</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303817" stop="1529083303864" status="passed">
+                            <name>stepCheckFillField[Номер паспорта, 215316]</name>
+                            <title>поле Номер паспорта заполнено значением 215316</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303864" stop="1529083303911" status="passed">
+                            <name>stepCheckFillField[Фамилия, Петров]</name>
+                            <title>поле Фамилия заполнено значением Петров</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303911" stop="1529083303976" status="passed">
+                            <name>stepCheckFillField[Застрахованные: Имя, Ivan]</name>
+                            <title>поле Застрахованные: Имя заполнено значением Ivan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083303976" stop="1529083304023" status="passed">
+                            <name>stepCheckFillField[Отчество, Иванович]</name>
+                            <title>поле Отчество заполнено значением Иванович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083304023" stop="1529083304069" status="passed">
+                            <name>stepCheckFillField[Дата рождения, 15.09.1980]</name>
+                            <title>поле Дата рождения заполнено значением 15.09.1980</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529083304085" stop="1529083304132" status="passed">
+                            <name>stepCheckFillField[Дата выдачи, 10.06.2011]</name>
+                            <title>поле Дата выдачи заполнено значением 10.06.2011</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529083304132" stop="1529083304501" status="passed">
+                    <name>stepcontButton</name>
+                    <title>выполнено нажатие на кнопку - Продолжить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529083304503" stop="1529083304615" status="passed">
+                    <name>stepPhone[Номер телефона вводится в 10-ти значном формате]</name>
+                    <title>текст ошибка о пустых контактных данных - Номер телефона вводится в 10-ти значном формате</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="1-ПК"/>
+                <label name="thread" value="2648@1-ПК.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

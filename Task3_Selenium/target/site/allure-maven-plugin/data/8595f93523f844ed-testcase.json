@@ -1,0 +1,572 @@
+{
+  "uid" : "8595f93523f844ed",
+  "name" : "testnewSbrf",
+  "title" : "Страхование",
+  "time" : {
+    "start" : 1529083167599,
+    "stop" : 1529083304626,
+    "duration" : 137027
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 35
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "53d84bd1c5277d17",
+    "name" : "SbrfTestForAllureReport",
+    "title" : "Sbrf test for allure report"
+  },
+  "steps" : [ {
+    "name" : "stepSelectMainMenu[Страхование]",
+    "title" : "выбран пункт меню Страхование",
+    "time" : {
+      "start" : 1529083265503,
+      "stop" : 1529083266763,
+      "duration" : 1260
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepSelectSubMenu[Путешествия и покупки]",
+    "title" : "выбран вид страхования Путешествия и покупки",
+    "time" : {
+      "start" : 1529083266768,
+      "stop" : 1529083278257,
+      "duration" : 11489
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepSelect1MainMenu[Страхование]",
+    "title" : "выбран пункт меню Страхование",
+    "time" : {
+      "start" : 1529083278259,
+      "stop" : 1529083278700,
+      "duration" : 441
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepSelect1SubMenu[Путешествия и покупки]",
+    "title" : "выбран вид страхования Путешествия и покупки",
+    "time" : {
+      "start" : 1529083278702,
+      "stop" : 1529083287719,
+      "duration" : 9017
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepTitle[Страхование путешественников]",
+    "title" : "заголовок страницы - Страхование путешественников",
+    "time" : {
+      "start" : 1529083287721,
+      "stop" : 1529083288131,
+      "duration" : 410
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepissueButtonTravels",
+    "title" : "выполнено нажатие на кнопку - Оформить онлайн",
+    "time" : {
+      "start" : 1529083288133,
+      "stop" : 1529083288899,
+      "duration" : 766
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "switchTab",
+    "title" : "переход на другую вкладку",
+    "time" : {
+      "start" : 1529083288900,
+      "stop" : 1529083289166,
+      "duration" : 266
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepSelectSum",
+    "title" : "выполнен выбор минимальной суммы",
+    "time" : {
+      "start" : 1529083289168,
+      "stop" : 1529083297053,
+      "duration" : 7885
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepissueButton",
+    "title" : "выполнено нажатие на кнопку - Оформить",
+    "time" : {
+      "start" : 1529083297055,
+      "stop" : 1529083297818,
+      "duration" : 763
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepFillFields[{Застрахованные: Дата рождения=05.05.1990, Серия паспорта=5010, Место выдачи=ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬ...]",
+    "title" : "заполняются поля",
+    "time" : {
+      "start" : 1529083297821,
+      "stop" : 1529083303362,
+      "duration" : 5541
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Застрахованные: Дата рождения, 05.05.1990]",
+      "title" : "поле Застрахованные: Дата рождения заполняется значением 05.05.1990",
+      "time" : {
+        "start" : 1529083297836,
+        "stop" : 1529083299298,
+        "duration" : 1462
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Серия паспорта, 5010]",
+      "title" : "поле Серия паспорта заполняется значением 5010",
+      "time" : {
+        "start" : 1529083299299,
+        "stop" : 1529083299645,
+        "duration" : 346
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Место выдачи, ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА]",
+      "title" : "поле Место выдачи заполняется значением ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА",
+      "time" : {
+        "start" : 1529083299646,
+        "stop" : 1529083300852,
+        "duration" : 1206
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Застрахованные: Фамилия, Ivanov]",
+      "title" : "поле Застрахованные: Фамилия заполняется значением Ivanov",
+      "time" : {
+        "start" : 1529083300855,
+        "stop" : 1529083301107,
+        "duration" : 252
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Имя, Сергей]",
+      "title" : "поле Имя заполняется значением Сергей",
+      "time" : {
+        "start" : 1529083301108,
+        "stop" : 1529083301351,
+        "duration" : 243
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Номер паспорта, 215316]",
+      "title" : "поле Номер паспорта заполняется значением 215316",
+      "time" : {
+        "start" : 1529083301381,
+        "stop" : 1529083301615,
+        "duration" : 234
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Фамилия, Петров]",
+      "title" : "поле Фамилия заполняется значением Петров",
+      "time" : {
+        "start" : 1529083301616,
+        "stop" : 1529083301843,
+        "duration" : 227
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Застрахованные: Имя, Ivan]",
+      "title" : "поле Застрахованные: Имя заполняется значением Ivan",
+      "time" : {
+        "start" : 1529083301850,
+        "stop" : 1529083302042,
+        "duration" : 192
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Отчество, Иванович]",
+      "title" : "поле Отчество заполняется значением Иванович",
+      "time" : {
+        "start" : 1529083302043,
+        "stop" : 1529083302341,
+        "duration" : 298
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Дата рождения, 15.09.1980]",
+      "title" : "поле Дата рождения заполняется значением 15.09.1980",
+      "time" : {
+        "start" : 1529083302346,
+        "stop" : 1529083302829,
+        "duration" : 483
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepFillField[Дата выдачи, 10.06.2011]",
+      "title" : "поле Дата выдачи заполняется значением 10.06.2011",
+      "time" : {
+        "start" : 1529083302845,
+        "stop" : 1529083303362,
+        "duration" : 517
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "stepCheckFillFields[{Застрахованные: Дата рождения=05.05.1990, Серия паспорта=5010, Место выдачи=ОУФМС РОССИИ УВД ПО ЦЕН...]",
+    "title" : "поля заполнены верно",
+    "time" : {
+      "start" : 1529083303390,
+      "stop" : 1529083304132,
+      "duration" : 742
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepCheckFillField[Застрахованные: Дата рождения, 05.05.1990]",
+      "title" : "поле Застрахованные: Дата рождения заполнено значением 05.05.1990",
+      "time" : {
+        "start" : 1529083303401,
+        "stop" : 1529083303463,
+        "duration" : 62
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Серия паспорта, 5010]",
+      "title" : "поле Серия паспорта заполнено значением 5010",
+      "time" : {
+        "start" : 1529083303464,
+        "stop" : 1529083303512,
+        "duration" : 48
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Место выдачи, ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА]",
+      "title" : "поле Место выдачи заполнено значением ОУФМС РОССИИ УВД ПО ЦЕНТРАЛЬНОМУ АДМИНИСТРАТИВНОМУ ОКРУГУ ГОРОД МОСКВА",
+      "time" : {
+        "start" : 1529083303512,
+        "stop" : 1529083303599,
+        "duration" : 87
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Застрахованные: Фамилия, Ivanov]",
+      "title" : "поле Застрахованные: Фамилия заполнено значением Ivanov",
+      "time" : {
+        "start" : 1529083303599,
+        "stop" : 1529083303708,
+        "duration" : 109
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Имя, Сергей]",
+      "title" : "поле Имя заполнено значением Сергей",
+      "time" : {
+        "start" : 1529083303708,
+        "stop" : 1529083303802,
+        "duration" : 94
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Номер паспорта, 215316]",
+      "title" : "поле Номер паспорта заполнено значением 215316",
+      "time" : {
+        "start" : 1529083303817,
+        "stop" : 1529083303864,
+        "duration" : 47
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Фамилия, Петров]",
+      "title" : "поле Фамилия заполнено значением Петров",
+      "time" : {
+        "start" : 1529083303864,
+        "stop" : 1529083303911,
+        "duration" : 47
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Застрахованные: Имя, Ivan]",
+      "title" : "поле Застрахованные: Имя заполнено значением Ivan",
+      "time" : {
+        "start" : 1529083303911,
+        "stop" : 1529083303976,
+        "duration" : 65
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Отчество, Иванович]",
+      "title" : "поле Отчество заполнено значением Иванович",
+      "time" : {
+        "start" : 1529083303976,
+        "stop" : 1529083304023,
+        "duration" : 47
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Дата рождения, 15.09.1980]",
+      "title" : "поле Дата рождения заполнено значением 15.09.1980",
+      "time" : {
+        "start" : 1529083304023,
+        "stop" : 1529083304069,
+        "duration" : 46
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Дата выдачи, 10.06.2011]",
+      "title" : "поле Дата выдачи заполнено значением 10.06.2011",
+      "time" : {
+        "start" : 1529083304085,
+        "stop" : 1529083304132,
+        "duration" : 47
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "stepcontButton",
+    "title" : "выполнено нажатие на кнопку - Продолжить",
+    "time" : {
+      "start" : 1529083304132,
+      "stop" : 1529083304501,
+      "duration" : 369
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "stepPhone[Номер телефона вводится в 10-ти значном формате]",
+    "title" : "текст ошибка о пустых контактных данных - Номер телефона вводится в 10-ти значном формате",
+    "time" : {
+      "start" : 1529083304503,
+      "stop" : 1529083304615,
+      "duration" : 112
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "1-ПК"
+  }, {
+    "name" : "suite-name",
+    "value" : "SbrfTestForAllureReport"
+  }, {
+    "name" : "thread",
+    "value" : "2648@1-ПК.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

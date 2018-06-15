@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1529083167599,
+    "stop" : 1529083304626,
+    "duration" : 137027
+  },
+  "testSuites" : [ {
+    "uid" : "53d84bd1c5277d17",
+    "name" : "SbrfTestForAllureReport",
+    "title" : "Sbrf test for allure report",
+    "time" : {
+      "start" : 1529083167599,
+      "stop" : 1529083304626,
+      "duration" : 137027
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "8595f93523f844ed",
+      "name" : "testnewSbrf",
+      "title" : "Страхование",
+      "time" : {
+        "start" : 1529083167599,
+        "stop" : 1529083304626,
+        "duration" : 137027
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
