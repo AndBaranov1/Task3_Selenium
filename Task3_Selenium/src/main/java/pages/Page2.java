@@ -8,10 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by 1 on 09.06.2018.
  */
-public class Page2 {
+public class Blanck2Page {
 
     WebDriver driver;
-    public Page2(WebDriver driver) {
+    public Blanck2Page(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -125,6 +125,19 @@ public class Page2 {
     @FindBy(xpath = "//SPAN[@ng-click='save()'][text()='Продолжить']")
     public WebElement contButton;
 
-    @FindBy(xpath = "//SPAN[@class='b-text-field-error'][text()='Номер телефона вводится в 10-ти значном формате']")
-    public WebElement phone;
+
+public boolean isElementPresent(WebElement element) {
+    try {
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        return element.isDisplayed();
+    } catch (NoSuchElementException e) {
+        return false;
+    }
+    finally {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+    }
+}
+
+    assertTrue(String.format("Не найдено сообщение об ошибке - [%s]",
+               expectedPhone), isElementPresent(new Page2(driver).phone));
 }
