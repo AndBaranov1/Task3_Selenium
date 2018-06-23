@@ -6,7 +6,7 @@ import ru.yandex.qatools.allure.annotations.Step;
 /**
  * Created by 1 on 14.06.2018.
  */
-public class Page1Step extends BaseSteps{
+public class Blanck1PageStep extends BaseSteps{
 
     @Step("выполнен выбор минимальной суммы")
     public void stepSelectSum(){
