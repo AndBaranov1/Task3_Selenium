@@ -8,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by 1 on 14.06.2018.
  */
-public class Page2Step extends BaseSteps {
+public class Blanck2PageStep extends BaseSteps {
 
     @Step("поле {0} заполняется значением {1}")
     public void stepFillField(String field, String value){
